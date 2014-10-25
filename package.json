@@ -1,0 +1,41 @@
+{
+  "name": "img-async",
+  "version": "1.0.0",
+  "description": "img as an async Promise",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "img": "git://github.com/mattdesl/img#add-options"
+  },
+  "devDependencies": {
+    "baboon-image-uri": "^1.0.1",
+    "tape": "^3.0.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "img",
+    "image",
+    "html",
+    "HTMLImage",
+    "browser",
+    "browserify",
+    "async",
+    "promise"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/img-async.git"
+  },
+  "homepage": "https://github.com/mattdesl/img-async",
+  "bugs": {
+    "url": "https://github.com/mattdesl/img-async/issues"
+  }
+}
